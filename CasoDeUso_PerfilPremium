@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T02:21:50.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="JQCTJ7wF6Ol39kic_-CC" type="github"><diagram name="Página-1" id="pq2l5ffLcZ6Ebg9Ja0DA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-16T02:35:37.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JgWbWm5gQKUubuiUD03d" version="21.0.6" type="github">
+  <diagram name="Página-1" id="pq2l5ffLcZ6Ebg9Ja0DA">
+    <mxGraphModel dx="794" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="300" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Cambiar informacion personal&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Agregar fotos de los lugares que visito&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Subir a la plataforma lugar propio (Si tiene)&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-9" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fElQ1bZ6SjSbYAT-BQyt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="260" />
+              <mxPoint x="440" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-11" value="Cambiar contraseña/email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Precondiciones&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-13" value="&lt;ul&gt;&lt;li&gt;Haber seleccionado &quot;Perfil&quot; (Usuario)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="570" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Postcondiciones&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-15" value="&lt;ul style=&quot;line-height: 10%;&quot;&gt;&lt;li&gt;Aceptar los cambios (Usuario)&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;line-height: 10%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;line-height: 10%;&quot;&gt;&lt;li&gt;&amp;nbsp; Validar campos y confirmacion de actualizacion (Usuario)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="380" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
