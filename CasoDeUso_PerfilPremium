@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T02:35:37.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JgWbWm5gQKUubuiUD03d" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T02:53:13.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7DggV37f0mIWA51XIPmN" version="21.0.6" type="github">
   <diagram name="Página-1" id="pq2l5ffLcZ6Ebg9Ja0DA">
     <mxGraphModel dx="794" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-1" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fElQ1bZ6SjSbYAT-BQyt-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -49,6 +49,9 @@
         </mxCell>
         <mxCell id="fElQ1bZ6SjSbYAT-BQyt-11" value="Cambiar contraseña/email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fElQ1bZ6SjSbYAT-BQyt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fElQ1bZ6SjSbYAT-BQyt-12" target="fElQ1bZ6SjSbYAT-BQyt-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fElQ1bZ6SjSbYAT-BQyt-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Precondiciones&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="530" width="60" height="30" as="geometry" />
