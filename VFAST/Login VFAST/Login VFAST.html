@@ -1,0 +1,88 @@
+<?php
+error_reporting(0);
+
+include "include/connect.php";
+include "include/plogin.php";
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE_edge">
+    <meta name="viewport" content="widht=device-widht", initial-scale="1.0">
+    <meta name="author" content="dlyp diseño de marketing digital 2022">
+    <meta name="keyword" content="...">
+    <meta name="description" content="165 caracteres">
+    <title>| VFAST | Aplicativo online | LOGIN |</title>
+      <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/vfast.css">
+        <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+    <script src="js/vfast login.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Vfast.PNG.png">
+</head>
+<body>
+<div class="contenedor_loader">
+    <div class="loader"></div>
+  </div>
+
+        <div class="container col-12 p-5 mt-5 ">
+
+        <div class="row">
+
+            <div class="container col-6 border shadow p-2" ><br><br>
+                <img src="img/vfast_png.png" alt="" class="img-thumbnail img-fluid border-0 w-100 h-auto justify-content-center align-items-center">
+            </div>
+
+        <div class="container col-6 border shadow p-2">
+            <form class="login" name="login">
+                <h2 class="text-center display-5 mt-3"> | VFAST | <span class="text-warning"></span></h2>
+        <h3 class="text-center display-5 mt-3"> | Inicio Sesión | <span class="text-warning"></span></h3>
+        <h4>Nombre de Usuario</h4>
+        <input type="text" placeholder="Ingrese nombre de usuario" id="Name" class="form-control w-75 mx-auto" >
+    
+        <h4>Contraseña</h4>
+        <input type="password" placeholder="Ingrese su contraseña" id="Pass" class="form-control w-75 mx-auto" >
+
+        <div class="form-check form-switch">
+  <input class="form-check-input " type="checkbox" id="See" onclick="verpass(this);" >
+  <label class="form-check-label " for="flexSwitchCheckDefault">Ver Contraseña</label>
+</div>
+
+<div class="row mx-auto text-center">
+                    <div class="col mx-auto">
+                        <a href="Recuperar cc Vfast.html" target="_blank">Recuperar Contraseña</a>
+
+                    </div>
+
+                     <div class="col mx-auto">
+                        <a href="Registro vfast definitivo.html" target="_blank">Registrarse en VFAST</a>
+
+                    </div>
+</div>                    
+
+                    <div class=" d-grid gap-2 col-6 mx-auto mb-5">
+                      <button class="btn btn-danger" type="button" href="Tiempo.html" onclick="validar()">Iniciar Sesion</button>
+                    </div>
+                     </form>
+         </div>   
+            
+    </div>
+     </div>
+   
+    <script type="text/javascript">
+        function verpass(cb){
+            if(cb.checked)
+            $('#Pass').attr("type","text");
+            else
+            $('#Pass').attr("type","password");
+        }
+    </script>
+    <script src="js/loader.js"></script>
+</body>
+</html>
