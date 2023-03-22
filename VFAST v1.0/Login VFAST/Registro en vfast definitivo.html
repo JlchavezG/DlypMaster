@@ -1,0 +1,105 @@
+<?php
+error_reporting(0);
+include "include/connect.php";
+include "include/pregist.php";
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE_edge">
+    <meta name="viewport" content="widht=device-widht", initial-scale="1.0">
+    <meta name="author" content="dlyp diseño de marketing digital 2022">
+    <meta name="keyword" content="...">
+    <meta name="description" content="165 caracteres">
+    <title>| VFAST | Online Application | REGISTER |</title>
+      <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/vfast.css">
+        <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+    <script src="js/vfast registro.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Vfast.PNG.png">
+</head>
+<body>
+
+    <div class="contenedor_loader">
+    <div class="loader"></div>
+  </div>
+  
+        <div class="container col-12 p-5 mt-5 ">
+
+        <div class="row">
+
+            <div class="container col-6 border shadow p-2" ><br><br>
+                <img src="img/vfast_png.png" alt="" class="img-thumbnail img-fluid border-0 w-100 h-auto justify-content-center align-items-center">
+            </div>
+
+        <div class="container col-6 border shadow p-2">
+            <form class="login" name="login">
+                <h2 class="text-center display-5 mt-3"> | VFAST | <span class="text-warning"></span></h2>
+        <h3 class="text-center display-5 mt-3"> | Sign In | <span class="text-warning"></span></h3>
+        <h4>Nickname</h4>
+        <input type="text" name="Nick" placeholder="Nickname" id="Nick" class="form-control w-75 mx-auto" >
+        <h4>Name</h4>
+        <input type="text" name="Name" placeholder="Name" id="Name" class="form-control w-75 mx-auto" >
+        <h4>Last Name</h4>
+        <input type="text" name="LastName" placeholder="Last Name" id="LastName" class="form-control w-75 mx-auto" >
+        <h4>Email</h4>
+        <input type="email" name="Correo" placeholder="Email" id="Correo" class="form-control w-75 mx-auto" >
+        <h4>Password</h4>
+        <input type="password" name="Contraseña" placeholder="Password" id="Pass" class="form-control w-75 mx-auto" >
+
+        <div class="form-check form-switch">
+  <input class="form-check-input " type="checkbox" id="See" onclick="verpass(this);" >
+  <label class="form-check-label " for="flexSwitchCheckDefault">See Password</label>
+</div>
+
+        <h4>Type of User</h4>
+        <div class="container-form w-75 mx-auto" style="display: flex;
+    align-items: center; justify-content: space-evenly;">
+        <br>  
+<div class="form- form-check-inline w-75 mx-auto">
+  <input class="form-check-input"check type="radio" id="F" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Free</label>
+</div>
+<div class="form-check form-check-inline w-75 mx-auto">
+  <input class="form-check-input" type="radio" id="P" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Premium</label>
+</div>  
+</div>
+       
+        <div class="container-form mt-1" style="display: flex;
+    align-items: center; justify-content: space-evenly;">
+        <input type="submit"  class="bg-primary text-white" style="border-radius: 10%; font-size: 15px" value="    Log In by Facebook    ">
+    </div>
+        <div class="container-form mt-1" style="display: flex;
+    align-items: center; justify-content: space-evenly;"> 
+         <input type="submit"  class="bg-primary text-white" style="border-radius: 10%; font-size: 15px"  value="      Log In by Google      ">
+     </div>
+     <div class="container-form mt-1" style="display: flex;
+    align-items: center; justify-content: space-evenly;">
+    <button class="btn btn-danger" type="button"  name="btnregistro" href="Tiempo.html" onclick="validar()">Sign In VFAST</button>
+      </div>
+         </div>   
+            
+    </div>
+     </div>
+    </form>
+
+
+    <script type="text/javascript">
+        function verpass(cb){
+            if(cb.checked)
+            $('#Pass').attr("type","text");
+            else
+            $('#Pass').attr("type","password");
+        }
+    </script>
+    <script src="js/loader.js"></script>
+
+</body>
+</html>

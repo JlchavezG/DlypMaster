@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f0f2f5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+	height: 100vh;
+	padding: 1rem;
+
+}
+
+.logo img{
+	display: block;
+	margin: auto;
+	width: 500px;
+
+}
+
+.form *{
+	display: block;
+}
+
+.form{
+	max-width: 400px;
+	padding: 1rem;
+	margin: 1rem auto;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: ;
+}
+
+.container{
+	max-width: 1400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+

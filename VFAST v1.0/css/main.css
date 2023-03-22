@@ -1,0 +1,14 @@
+/*Comentarios*/
+
+/*Clase para botones*/
+.btn-slider{
+    background-color: rgba(0, 48, 93, .5);
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.btn-slider:hover{
+    background-color: rgba(107, 121, 135, .8);
+    transition: .8s;
+}

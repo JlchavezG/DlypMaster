@@ -1,0 +1,31 @@
+.contenedor{
+    background-color: rgb(197, 197, 197);
+    padding-left: 195px;
+    float: right;
+    width: 700px;
+  }
+
+  h3{
+    padding-right: 15px;
+  }
+
+  .container-fluid1{
+    padding-left: 100px;
+    float: right;
+    width: 700px;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+  }
+
+  #desc{
+    position: absolute;
+    right: 40px;
+    top: 240px;
+  }
+
+  #modulos{
+    position: absolute;
+    right: 200px;
+    top: 260px
+  } 

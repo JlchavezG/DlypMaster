@@ -1,0 +1,38 @@
+svg{
+    color: brown;
+    text-decoration: none;
+}
+
+h5{
+    text-align: center;
+}
+
+#Regresar{
+    background-color: white;
+    color: brown;
+    text-decoration: none;
+}
+
+#Editar{
+    color: brown;
+    text-decoration: none;
+}
+
+#Free{
+    color:rgb(160, 121, 121);
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#Premium{
+    color:rgb(160, 121, 121);
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#Sistem{
+    color:rgb(160, 121, 121);
+    padding-left: 50px;
+    text-decoration: none;
+}
+

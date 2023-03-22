@@ -1,0 +1,33 @@
+.contenedor{
+    background-color: rgb(197, 197, 197);
+    padding-left: 195px;
+    float: right;
+    width: 700px;
+    }
+
+h3{
+    padding-right: 15px;
+}    
+
+.mapa{
+    position: absolute;
+    top: 153px;
+    left: 0px;
+
+}
+
+#img1{
+    background-color: rgb(197, 197, 197);
+    position: relative;
+    top: 100px;
+    bottom: 0px;
+    left: 750px;
+    right: 0px;
+}
+
+#cerrar{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+}

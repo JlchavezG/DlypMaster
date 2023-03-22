@@ -1,0 +1,46 @@
+*{
+    padding: 10px;
+    background-color: #FFF;
+   
+   }
+   .titulo{
+       color: #000;
+       text-align: center;
+       font-size: 30px;
+       
+       
+   }
+   .subtitulo{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    -ms-grid-row-align: center;
+    
+   }
+   .Formulario{
+       width: 50%;
+       font-size: 20px;
+       padding: 30px;
+       margin: auto;
+       background-color: rgb(255, 255, 255);
+       border-radius: 10px;
+   
+   }
+   .formC{
+       background-color: #000;
+    }   
+
+    .Caja{
+        background: transparent;
+       border-radius: 10px;
+        border-bottom: 2px solid #999;
+        width: 80%;
+        padding: 15px ;
+    }
+    .p{
+        color: rgba(0, 0, 0, 10);
+    }
+
+    img{
+        margin: auto;
+    }

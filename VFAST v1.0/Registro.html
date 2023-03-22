@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Caractetres con comillas , acentos etc -->
+    <meta charset="UTF-8">
+    <!-- Codigo conpatible con los navegadores -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La resolucion de la pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Se mandan a llamar las carpetas con los archivos que ocuparemos-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/stilos.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <title>VFast | Registrarse</title>
+
+</head>
+<body>
+    <!--Main-->
+    <div class="container col-12 p-5 mt-5 ">
+
+        <div class="row">
+
+            <div class="container col-6 border shadow p-2" ><br><br>
+                <img src="img/vfast_png.png" alt="" class="img-thumbnail img-fluid border-0 w-100 h-auto justify-content-center align-items-center">
+            </div>
+
+
+            <!--Formulario-->
+            <div class="container col-6 border shadow p-2">
+                <h1 class="text-center mt-3">VFast</h1>
+                <h3 class="text-center">Registrarse</h3>
+                <form >
+                    <label for="N_user" class="form-label mt-4 ms-5">Nombre de Usuario</label>
+                    <input type="text" class="form-control w-75 mx-auto" id="nickname" placeholder="Ingresa tu nombre de usuario" required>
+
+                    <label for="Nombre" class="form-label mt-4 ms-5">Nombre(s)</label>
+                    <input type="text" class="form-control w-75 mx-auto" id="Nombres" placeholder="Ingresa tu nombre" required>
+
+                    <label for="Apeliidos" class="form-label mt-4 ms-5">Apellidos</label>
+                    <input type="text" class="form-control w-75 mx-auto" id="Apellidos" placeholder="Ingresa tus apellidos" required>
+
+                    <label for="Mail" class="form-label mt-4 ms-5">Correo Electronico</label>
+                    <input type="email" class="form-control w-75 mx-auto" id="mail" placeholder="name@example.com" required>
+
+                    <label for="Password" class="form-label mt-4 ms-5">Contraseña</label>
+                    <input type="password" class="form-control w-75 mx-auto" id="password" placeholder="Ingresa tu contraseña" required>
+
+                    <div class="row mb-5">
+
+                        <label for="T_user" class="form-label mt-4 ms-5">Tipo de Usuario</label>
+
+                        <div class="row mx-auto">
+                            <div class="col-lg-3 form-check mt-3 ms-5">
+                                <input class="form-check-input" type="radio" id="user_free">
+                                <label class="form-check-label" for="Free_user">
+                                Free
+                                </label>
+                            </div>
+                            <div class="col-lg-3 form-check mt-3 ms-5">
+                                <input class="form-radio-input" type="radio" id="user_premium">
+                                <label class="form-check-label" for="Premium_user">
+                                Premium
+                                </label><br>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--Inicio de sesion por otros medios-->
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-primary w-100 my-1" >
+                                
+                                <div class="row align-items-center text-center">
+                                    <div class="col-2 ">
+                                        <img src="img/facebook (1).png "  width="32" alt="" class="img-logo">
+                                    </div>
+                                    <div class="col-8 ">
+                                       <label for="">Iniciar Sesion con Facebook
+                                    </label>                                  
+                                   </div>
+                                </div>
+                            </button>
+
+                            
+                            <div class="col">
+                                <button class="btn btn-info w-100 my-1" >
+                                
+                                    <div class="row align-items-center">
+                                        <div class="col-2 ">
+                                            <img src="img/google.png" width="32" alt="">
+                                        </div>
+                                        <div class="col-8 text-center">
+                                            Iniciar Sesion con Google
+                                        </div>
+    
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class=" d-grid gap-2 col-6 mx-auto mb-5">
+                        <button class="btn2 btn-danger" type="button">Iniciar Sesion</button>
+                      </div>
+<!-- redes -->
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
