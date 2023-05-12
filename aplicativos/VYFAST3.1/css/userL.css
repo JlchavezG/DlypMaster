@@ -1,0 +1,32 @@
+#img1{
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+#img2{
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+#img3{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+#img4{
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+#nom{
+    padding-right: 365px;
+}
+
+P{
+    width: 60px;
+    background-color: rgb(232, 206, 206);
+}
