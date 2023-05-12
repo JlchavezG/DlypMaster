@@ -1,0 +1,198 @@
+<?php
+  include 'include/connect.php';
+  if (isset($_POST['Btn_Facebook'])) {
+    $Correo = $_POST['txt1']; 
+    $pass = $_POST['txt2'];
+    $insertar = "INSERT INTO usuario(Email, Password)VALUES('$Correo','$pass')";
+      $ejecutar = $conexion->query($insertar);
+
+    if ($ejecutar > 0){
+      header("location:Rpg.html");
+    }
+    else
+    {
+      echo "Hubo un error intentalo más tarde";
+    }
+     }
+    
+  ?>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>| GameLifeShop oficial México |</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="widht-device-widht, initial-scale-1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/class slider.css">
+</head>
+<body>
+	<!--inicia la barra de navegacion-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+ 
+    <a class="navbar-brand" href="index.html">GameLifeShop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Más recientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Suscripciones</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorías
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="index.html">Acción</a></li>
+            <li><a class="dropdown-item" href="index.html">RPG</a></li>
+            <li><a class="dropdown-item" href="index.html">Horror</a></li>
+            <li><a class="dropdown-item" href="index.html">Carreras</a></li>
+            <li><a class="dropdown-item" href="index.html">Más...</a></li>
+          </ul>
+          <li class="nav-item">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalSesion"> Iniciar Sesión</button>
+        </li>
+           </li>
+            <nav class="navbar bg-dark">  
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                   <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+</nav>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<!--termina la barra de navegacion-->
+
+  <!--aqui inicia el carrucel-->
+  <div id="sliderPrincipal" class="carousel slide" data-bs-ride="carousel">
+    <div id="sliderPrincipal" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="sliderPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="sliderPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="sliderPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/dark souls.PNG" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h2>DARK SOULS</h2>
+        <p>FROM SOFTWARE.</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/witcher 3.PNG" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h2>WItcher 3: Wild Hunt</h2>
+        <p>CD PROJECKT RED.</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/red dead 2.PNG" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h2>RED DEAD REDEMPTION 2</h2>
+        <p>Rockstar Games.</p>
+      </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#sliderPrincipal" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon button-slider" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#sliderPrincipal" data-bs-slide="next">
+      <span class="carousel-control-next-icon button-slider" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--termina el carrucel-->
+  
+  <div class="row py-3 bg-dark">
+    <div class="col">
+      <h2 class="text-center text-white">Más recientes</h2>
+    </div>
+  </div>
+
+    <!--inicia la zona de servicios-->
+ <div class="container">
+  <div class="row mt-3">
+   <div class="col-sm-12 col-md-4">
+      <div class="card-shadow bg-dark">
+      <img src="img/Witcher 3 (600).png" alt="Witcher 3" class="card-img-top mx-auto d-block mt-3 " style="width: 200px;">
+      <div class="card-body bg-dark text-white">
+        <h3 class="card-title text-center">The Witcher 3</h3>
+        <p class="card-text text-center">Juego de rol del año 2015 por la empresa polaca CD PROJEKT RED.</p>
+        <div class="row text-center">
+       <a href="Diseño.html" class="btn btn.sm btn-primary">Más información</a>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4">
+    <div class="card-shadow bg-dark">
+    <img src="img/Bloodborne (600).jpg" alt="Bloodborne" class="card-img-top mx-auto d-block mt-3" style="width: 200px;">
+    <div class="card-body bg-dark text-white">
+      <h3 class="card-title text-center">Bloodborne</h3>
+      <p class="card-text text-center">Juego de rol del año 2015 por la empresa japonesa FROM SOFTWARE.</p>
+      <div class="row text-center">
+      <a href="Diseño.html" class ="btn btn.sm btn-primary">Mas informacion</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-4 ">
+  <div class="card-shadow bg-dark">
+  <img src="img/Hellblade (600).jpg" alt="Hellblade" class="card-img-top mx-auto d-block mt-3 " style="width: 200px;">
+  <div class="card-body bg-dark text-white">
+    <h3 class="card-title text-center">Hellblade</h3>
+    <p class="card-text text-center"> Juego de rol del año 2017 por la empresa inglesa NINJA THEORY.</p>
+    <div class="row text-center">
+       <a href="Diseño.html" class="btn btn.sm btn-primary">Más información</a>
+       </div>
+</div>
+</div>
+  </div>
+  </div>
+  
+  <!--Termina la zona de servicios-->
+
+<!--Modal-->
+
+<div class="modal fade" id="ModalSesion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-centered">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title text-white" id="ModalSesion">Iniciar Sesión</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="<?php  echo $_SERVER['PHP_SELF'];?>" method="POST">
+          <input type="text" name="txt1" placeholder="Usuario" class= "form-control" required>
+          <input type="password" name="txt2" placeholder="Password" class= "form-control" required>
+           
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- termina Modal -->
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

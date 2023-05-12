@@ -1,0 +1,139 @@
+<?php
+  include 'include/connect GLS.php';
+  if (isset($_POST['btn_aceptar'])) {
+    $usr = $_POST['txt1']; 
+    $cc = $_POST['txt2'];
+    $insertar = "INSERT INTO usuario(Email, Password)VALUES('$usr','$cc')";
+      $ejecutar = $conexion->query($insertar);
+
+    if ($ejecutar > 0){
+      header("location:index v2.html");
+    }
+    else
+    {
+      echo "Hubo un error intentalo más tarde";
+    }
+     }
+    
+  ?>
+
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>| GameLifeShop oficial México | REGISTRO |</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht-device-widht, initial-scale-1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<!-- Titulo pagina -->
+
+<body>
+
+  <section id="Formulario" class="Formulario"> 
+  <h2 class="titulo"> Registro VFAST </h2>
+    <form name="Usuario">
+      <input type="text" name="Nombre" class="Caja" placeholder="Nombre" required="Nombre">
+      <input type="text" name="Apeliido" class="Caja" placeholder="Apeliido" required="Apellido">
+      <input type="date" name="Fecha_Nacimiento" class="Caja" placeholder="FechaNacimiento" required="FechadeNacimiento">
+      
+            <select>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+
+      </select>
+
+      <input type="text" name="Direccion" class="Caja" placeholder="Direccion" required="Direccion">
+      <input type="text" name="Longitud" class="Caja" placeholder="Longitud" required="Longitud">
+            <input type="text" name="Latitud" class="Caja" placeholder="Latitud" required="Latitud">
+
+      <input type="tel" name="Telefono" class="Caja" placeholder="Telefono" required="Telefono">
+      <input type="email" name="Email" class="Caja" placeholder="Email" required="Email">
+  
+
+      <button type="submit" onclick="Contacto();" class="btn">Enviar</button>
+        </form>
+
+<div> 
+<a href="Index VFAST.html">Inicio</a>
+</div>
+  </section>
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>| GameLifeShop oficial México | REGISTRO |</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht-device-widht, initial-scale-1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<!-- Titulo pagina -->
+
+<body>
+<div class="container bg-dark text-white">
+    <h2 class="display-6 text-center mt-2">Registrarse</h2>
+  </div>
+  <div class="container">
+  <div class="row mt-3">
+    <form>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4"><input type="email" id="Correo" placeholder="Correo Electrónico" class="form-control" required/>
+            </div>
+          <div class="col-sm-12 col-md-6 col-lg-4"><input type="password" id="Cc" placeholder="Contraseña" class="form-control mt-2" required/>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4"><input type="tel" id="Phone" placeholder="Teléfono" class="form-control mt-2" required/>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4"><input type="" id="Pass" placeholder="Contraseña" class="form-control mt-2" required/>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4"><input type="password" id="Pass" placeholder="Contraseña" class="form-control mt-2" required/>
+          </div>
+
+          <select>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+      </select>
+      
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+      <input type="submit" id="Usuario" value="Enviar" class="btn btn-sm btn-warning mt-2" onclick="validar()"required/> </div>
+    </form>
+    </div>
+  </div>
+  <script>
+    function validar(){
+      var usuario = "grupo405";
+      var contraseña = "programador";
+      var user = document.getElementById('Usuario').value;
+      var pass = document.getElementById('Pass').value;
+      
+      if (user == "" || pass == "")  
+      {
+        alert("POR FAVOR rellene los datos correctamente")
+      }
+
+      else{
+
+      if (user == usuario && pass == contraseña) 
+        { 
+          alert("BIENVENIDO al mundo web, tus datos son correctos_"+user+"_y_"+pass);
+            } 
+        else 
+          {
+            alert("NO ERES UN USUARIO, tus datos son incorrectos_"+user+"_y_"+pass);
+          }
+        }
+    }
+  </script>
+  <!-- Registro de Cliente -->
+
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

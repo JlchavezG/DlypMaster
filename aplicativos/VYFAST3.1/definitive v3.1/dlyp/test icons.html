@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Navbar Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/class slider.css">
+</head>
+</head>
+<body>
+	<!-- inicia la barra de navegacion -->
+	<nav class="Navbar Navbar-expand-lg Navbar-dark bg-dark">
+	  <div class = "container-fluid">
+	  	   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Dlyp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <svg class="bi text-light"  Width="25" height="32" fill="currentColor">
+            <use xlink:href="library/icons/bootstrap-icons.svg#person"/>
+          </svg>Inicio
+        </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="#">
+          <svg class="bi text-light"  Width="25" height="32" fill="currentcolor">
+            <use xlink:href="library/icons/bootstrap-icons.svg#person"/>
+          </svg>Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="#">
+          <svg class="bi text-light"  Width="25" height="32" fill="currentcolor">
+            <use xlink:href="library/icons/bootstrap-icons.svg#person"/>
+          </svg>Proyectos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="#">
+          <svg class="bi text-light"  Width="25" height="32" fill="currentcolor">
+            <use xlink:href="library/icons/bootstrap-icons.svg#person"/>
+          </svg>
+            Politica de Calidad
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="index.html">Misión</a></li>
+            <li><a class="dropdown-item" href="index.html">Visión</a></li>
+            <li><a class="dropdown-item" href="index.html">Objetivos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+</div>
+	</nav>
+  <!-- termina la barra de navegación -->
+  
+
+  <!-- inicia el carrusel de imagénes -->
+
+  <div id="sliderPrincipal" class="carousel slide" data-bs-ride="carousel">
+ <div class="carousel-indicators">
+    <button type="button" data-bs-target="sliderPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="sliderPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="sliderPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1200 x 800 px/slider1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/1200 x 800 px/slider2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/1200 x 800 px/slider3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="sliderPrincipal" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon btn-slider" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="sliderPrincipal" data-bs-slide="next">
+    <span class="carousel-control-next-icon btn-slider" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>   <!-- termina el carrusel del imagenes -->
+
+ <div class="row py-3 bg-dark mt-2">
+    <div class="col">
+      <h2 class="text-center text-white">gamelifeshop@gmail.com</h2>
+    </div>
+
+     <div class="col">
+      <h2 class="text-left text-white">Redes Sociales</h2>
+      <a class="nav-link" href="https://facebook.com/login.php" target="_black">
+          <svg class="bi text-light"  Width="25" height="25" fill="currentColor">
+            <use xlink:href="library/icons/apple.svg"/>
+          </svg></a>
+
+    </div>
+  </div>
+
+
+
+
+
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

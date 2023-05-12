@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Iniciando con Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial=scale=1">
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h2 class="display-6 text-center mt-2">Login</h2>
+	</div>
+	<div class="container">
+	<div class="row mt-3">
+		<form>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-4"><input type="text" id="Usuario" placeholder="Usuario" class="form-control" required/>
+		        </div>
+			    <div class="col-sm-12 col-md-6 col-lg-4"><input type="password" id="Pass" placeholder="Contraseña" class="form-control mt-2" required/>
+			    </div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+			<input type="submit" id="Usuario" value="Enviar" class="btn btn-sm btn-warning mt-2" onclick="validar()"required/> </div>
+		</form>
+		</div>
+	</div>
+	<script>
+		function validar(){
+			var usuario = "grupo405";
+			var contraseña = "programador";
+			var user = document.getElementById('Usuario').value;
+			var pass = document.getElementById('Pass').value;
+			
+			if (user == "" || pass == "")  
+			{
+				alert("POR FAVOR rellene los datos correctamente")
+			}
+
+			else{
+
+			if (user == usuario && pass == contraseña) 
+				{ 
+					alert("BIENVENIDO al mundo web, tus datos son correctos_"+user+"_y_"+pass);
+		        } 
+		    else 
+		    	{
+		    		alert("NO ERES UN USUARIO, tus datos son incorrectos_"+user+"_y_"+pass);
+		    	}
+		    }
+		}
+	</script>
+<script src="js/js/bootstrap.min.js"></script>
+</body>
+</html>

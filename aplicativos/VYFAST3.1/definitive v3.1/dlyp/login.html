@@ -1,0 +1,63 @@
+<?php
+  include 'include/connect GLS.php';
+  if (isset($_POST['btn_aceptar'])) {
+    $usr = $_POST['txt1']; 
+    $cc = $_POST['txt2'];
+    $insertar = "INSERT INTO usuario(Email, Password)VALUES('$usr','$cc')";
+      $ejecutar = $conexion->query($insertar);
+
+    if ($ejecutar > 0){
+      header("location:index v2.html");
+    }
+    else
+    {
+      echo "Hubo un error intentalo más tarde";
+    }
+     }
+    
+  ?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>| GameLifeShop oficial México | REGISTRO |</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht-device-widht, initial-scale-1">
+ <link rel="stylesheet" type="text/css" href="css/main2.css"> 
+</head>
+
+<!-- Titulo pagina -->
+
+<body>
+
+  <body>
+
+  <section id="Formulario" class="Formulario"> 
+  <h2 class="titulo"> Registro VFAST </h2>
+    <form name="Usuario">
+      <input type="text" name="Nombre" class="Caja" placeholder="Nombre" required="Nombre">
+      <input type="text" name="Apeliido" class="Caja" placeholder="Apeliido" required="Apellido">
+      <input type="date" name="Fecha_Nacimiento" class="Caja" placeholder="FechaNacimiento" required="FechadeNacimiento">
+      
+            <select>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+
+      </select>
+
+      <input type="text" name="Direccion" class="Caja" placeholder="Direccion" required="Direccion">
+      <input type="text" name="Longitud" class="Caja" placeholder="Longitud" required="Longitud">
+            <input type="text" name="Latitud" class="Caja" placeholder="Latitud" required="Latitud">
+
+      <input type="tel" name="Telefono" class="Caja" placeholder="Telefono" required="Telefono">
+      <input type="email" name="Email" class="Caja" placeholder="Email" required="Email">
+  
+
+      <button type="submit" onclick="Contacto();" class="btn">Enviar</button>
+        </form>
+
+  </section>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

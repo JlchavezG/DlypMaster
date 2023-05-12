@@ -1,0 +1,60 @@
+*{
+ padding: 10px;
+ background-color: #FFF;
+
+}
+.titulo{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.Formulario{
+    width: 50%;
+    font-size: 20px;
+    padding: 30px;
+    margin: auto;
+    background-color: #000;
+    border-radius: 10px;
+
+}
+.formC{
+    background-color: #000;
+}
+.Caja{
+    background: transparent;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid #999;
+    width: 90%;
+    padding: 20px ;
+}
+.Caja:focus={
+    border-bottom: 2px solid darkred;
+    transition: 2s;
+}
+.btn{
+    background: transparent;
+    border: 1px solid #000;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color: darkred;
+    color: #FFF;
+    border: 1px solid red;
+}
+.menu{
+
+width: 100%;
+background-color: darkgray;
+color: #fff;
+display: inline-block;
+} 
+.menu:ul{
+    text-decoration: none;
+}   
+
+ 

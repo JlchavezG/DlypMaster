@@ -1,0 +1,105 @@
+<?php
+  include 'include/connect GLS.php';
+  if (isset($_POST['btn_aceptar'])) {
+    $corr = $_POST['correousr']; 
+    $conc = $_POST['contra'];
+    $cel = $_POST['telph'];
+    $insertar = "INSERT INTO usuario(Email, Password, Telefono)VALUES('$corr','$conc', 'cel')";
+      $ejecutar = $conexion->query($insertar);
+
+    if ($ejecutar > 0){
+      header("location:index v2.html");
+    }
+    else
+    {
+      echo "Hubo un error intentalo más tarde";
+    }
+     }
+    
+  ?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>| REGISTRO | GameLifeShop |</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial=scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/login GLS.css">
+</head>
+
+
+<div class="container-principal bg-dark text-white">
+   <h1>
+  <img src="img/GLS.png" alt="" width="70" height="70" class="d-inline-block align-text-top">GameLifeShop
+    </h1>
+</div>
+
+<body>
+  <video autoplay loop muted plays-inline class="back-video d-block w-100">
+    <source src="img/GLS videoregister.mp4" type="video/mp4">
+  </video>
+<div class="hero">
+    <form class="container  form-control mt-3" style="background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)); background-color: transparent;">
+  
+  <div class="container">
+  <div class="row mt-3">
+     <div class="row text-center">
+        <div class="container text-white" style="background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));">
+          <img src="img/user.png" alt="User" class="card-img-top mx-auto d-block mt-3 " style="width: 150px; height: 150px;">
+    <h2 class="display-6 text-center mt-3" style="font-size: 60px; ">|| Registro ||</h2>
+  </div>
+        <input type="email" id="Correo" name="correoUsr" placeholder="Correo Electrónico" class="form-control mt-3 col-sm-12 col-md-6 col-lg-4"  required="Correo"/>
+        
+        <input type="password" id="Cc" name="contra" placeholder="Contraseña" class="form-control mt-3 col-sm-12 col-md-6 col-lg-4" required="Cc"/>
+      
+        <input type="tel" id="Phone" name="telph" placeholder="Teléfono" class="form-control mt-3 col-sm-12 col-md-6 col-lg-4" required="Phone"/>
+        
+
+        <h4 class="select-title text-white mt-3">|| Escoga una Opción ||</h4>
+        <select class="col-sm-12 col-md-6 col-lg-4 form-control mt-3">
+        <option value="Prefiero no decirlo" id="P" required="P">Prefiero no decirlo</option>
+        <option value="Masculino" id="M" required="M">Masculino</option>
+        <option value="Femenino" id="F" required="F">Femenino</option>
+        </select>
+
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <a class="nav-link" href="index v2.html">
+      <h1><input type="submit" id="Btn" value="Enviar" class="form-control mt-3 btn-sm btn-success mt-3" onclick="validar()" style="width: 1200px; font-size: 30px;"required/></h1></div>
+    </form>
+  </div>
+</div>
+
+  <script>
+    function validar(){
+      var corr = document.getElementById('Correo').value;
+      var cont = document.getElementById('Cc').value;
+      var telp = document.getElementById('Phone').value;
+
+      
+      if (corr == "")  
+      {
+        alert("No se ha ingresado un CORREO")
+      }
+
+      else if (cont == "" ){
+        alert("No se ha ingresado una CONTRASEÑA")
+      }
+
+      else if ( telp == ""){
+        alert("No se ha ingresado un TELEFONO")
+      }
+
+      else{
+ 
+          alert("BIENVENIDO a GameLifeShop, tus datos son correctos:_"+corr+"_,_"+pass+"_y_"+telp);
+            } 
+  </script>
+  <!-- Registro de Cliente -->
+
+
+  <script src="js/main.js"></script>
+</div>
+</body>
+</html>
