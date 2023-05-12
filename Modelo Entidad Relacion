@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T02:01:29.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="C0AxG483piDN-Uv2Qh99" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T02:03:09.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KtS6wSgg8ByU9Y3smFIO" version="21.2.9" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="4341" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2887" dy="2113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,7 +519,7 @@
             <mxPoint x="1590" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-148" value="N:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-148" value="N:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1570" y="395" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-150" value="Tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF8000;fontSize=18;" parent="1" vertex="1">
@@ -784,8 +784,8 @@
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-190" value="Id_Restriccion" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1970" y="1103.75" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-191" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#000000;fillColor=none;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="990" width="50" height="40" as="geometry" />
+        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-191" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1007" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-192" value="DescripcionC" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1570" y="1330" width="120" height="40" as="geometry" />
@@ -905,7 +905,7 @@
             <mxPoint x="1780" y="1225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-233" value="1:M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-233" value="1:M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1190" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-234" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=18;strokeColor=#000000;" parent="1" source="Ucd6H6nxqUQnoxPxyjyU-222" target="Ucd6H6nxqUQnoxPxyjyU-214" edge="1">
