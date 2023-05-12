@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T02:03:09.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KtS6wSgg8ByU9Y3smFIO" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T02:09:40.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XKI3C9VbPZfuWvwaehMJ" version="21.2.9" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2887" dy="2113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3294" dy="2316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1283,10 +1283,7 @@
         <mxCell id="NYABTE_pWVBRoaKcU7D6-38" value="Categoria" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#33FF33;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1440" y="1700" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NYABTE_pWVBRoaKcU7D6-40" value="" style="line;strokeWidth=2;html=1;fontSize=18;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="1830" width="80" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="NYABTE_pWVBRoaKcU7D6-41" value="" style="shape=link;html=1;rounded=0;fontSize=18;strokeColor=#000000;" parent="1" edge="1">
+        <mxCell id="NYABTE_pWVBRoaKcU7D6-41" value="" style="shape=link;html=1;rounded=0;fontSize=18;strokeColor=#000000;width=-3.1428571428571432;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="810" y="1849" as="sourcePoint" />
             <mxPoint x="910" y="1849" as="targetPoint" />
@@ -1309,9 +1306,6 @@
             <mxPoint x="1480" y="1820" as="sourcePoint" />
             <mxPoint x="1480" y="1770" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="NYABTE_pWVBRoaKcU7D6-49" value="" style="line;strokeWidth=2;html=1;fontSize=18;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1580" width="80" height="10" as="geometry" />
         </mxCell>
         <mxCell id="NYABTE_pWVBRoaKcU7D6-50" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;strokeColor=#000000;" parent="1" source="NYABTE_pWVBRoaKcU7D6-23" target="NYABTE_pWVBRoaKcU7D6-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1479,6 +1473,18 @@
               <mxPoint x="2181" y="-54" />
               <mxPoint x="2221" y="-54" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23ppciiHLXp5umD84P5N-47" value="" style="shape=link;html=1;rounded=0;width=0.2857142857142865;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1051" y="1836" as="sourcePoint" />
+            <mxPoint x="1151" y="1836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23ppciiHLXp5umD84P5N-48" value="" style="shape=link;html=1;rounded=0;width=-0.8571428571428577;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1458.75" y="1583" as="sourcePoint" />
+            <mxPoint x="1541.25" y="1583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
