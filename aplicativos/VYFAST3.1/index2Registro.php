@@ -63,7 +63,7 @@ include "include/pregist.php";
 
                         <label for="T_user" class="form-label mt-4 ms-5">Tipo de Usuario</label>
 
-                        <div class="row mx-auto">
+                        <div class="row mx-auto mb-1">
                             <div class="col-lg-3 form-check mt-3 ms-5">
                                 <input class="form-check-input" type="radio" name="male" id="user_free">
                                 <label class="form-check-label" for="Free_user">
@@ -79,31 +79,28 @@ include "include/pregist.php";
                             </div> 
                             
                     </div> 
+   
 
-                    <div class="row">
-                        <div class="col">
-                        <div class="row">
-                            <!--
-                               <input type="checkbox" rol="switch" name="" id="aviso" onclick="activar(this);">
-                            -->   
-                               <button class="nav-link btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModalLong">Aviso de Privacidad 
-            
-                                <input type="checkbox" rol="switch" name="" id="aviso" onclick="activar(this);">
-                               </button>
-                                 
-                                
-                                </div>
-                            </div>
-                        
-                        
-                    </div>
-                           <div class=" d-grid gap-2 col-6 mx-auto mb-5">
-                             <button class="btn2 btn-danger" type="submit"  name="bntregistrar" value="registrar" id="registrar" onclick="validar()";>Registrarse</button>
+                    <div class="form-check form-switch mt-4 ms-5 mb-4">
+                        <input class="form-check-input" type="checkbox"  id="flexSwitchCheckChecked" role="switch" id="aviso" onclick="validar(this);">
+                        <label class="form-check-label" for="flexSwitchCheckChecked">
+                             <label for="">
+                      
+                                    <a href="" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#terminos"> Acepto terminos y condiciones</a>
+                             </label>
+                        </label>
+                      </div>
+                      
+             
+                           <div class=" d-grid gap-2 col-6 mx-auto ">
+                           <input type="submit" value="Registrar" name="bntregistrar" id="registro" class="btn btn-danger mb-3">
+
+                            <!-- <button class="btn2 btn-danger" type="submit"  name="bntregistrar" value="registrar" id="registrar">Registrarse</button> -->
                             
-                              <div class="d-grid gap-2 col-6 mx-auto mb-5 justify-content-center">
-                                  <a href="index1Login.php"> <button class="btn2 btn-danger" type="button">Regresar </button></a>
-                               </div> 
-                               
+                            <div class="d-grid gap-2 mx-auto mb-5 justify-content-center btn btn-danger col-12">
+                            <a class="btn-danger text-decoration-none" href="index1Login.php">Regresar</a>
+                           </div> 
+                             
                             </div>
                          
 
@@ -116,45 +113,9 @@ include "include/pregist.php";
         </div>
 
     </div>
-    
 
+    <?php include 'terminos.php'; ?>
 
-<!-- Modal -->
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Aviso de Privacidad</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      V.Fast conforme a lo establecido a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares de Los Estados Unidos Mexicanos ponemos a disposición de nuestros clientes, el presente aviso de privacidad.
-El objetivo de esta Política de Privacidad es informarte sobre qué datos recogemos, por qué los recogemos y cómo puedes actualizarlos, gestionarlos, exportarlos y eliminarlos.
-Los datos personales ingresados serán utilizados únicamente para las actividades internas de la empresa.
-Los datos que solicitamos a nuestros clientes son: Nombre, Apellidos, Correo Electrónico con la finalidad poder identificar a cada usuario dentro de la página ya que se realizan acuerdos entre usuario y proveedor, sin embargo nos proporcionas información personal que incluye tu nombre y tu contraseña. También puedes añadir un número de teléfono o datos de pago a tu cuenta. 
-También se recopila la actividad dentro de la plataforma lugares registrados, viajes, interacciones, búsquedas.
-Dicha información es recopilada con el fin de ofrecer una experiencia personalizada dentro de la plataforma
-El presente aviso esta propenso a modificaciones en tal caso se notificará previamente a los usuarios.
-Recogemos información para proporcionar los mejores servicios a todos nuestros usuarios: desde determinar información básica, como el idioma que hablas, hasta datos más complejos
-Al utilizar nuestros servicios, nos confías tus datos. Entendemos que es una gran responsabilidad y nos esforzamos al máximo para proteger tu información y permitirte controlarla.
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<?php
-echo $alerta;
-?>
-
-<!-- termina modal -->
 
 
 
@@ -165,16 +126,15 @@ echo $alerta;
 
     <script>
 
-        document.getElementById('registrar').disabled=true;
-        function activar(bc){
-            if(bc.checked)
-            document.getElementById('registrar').disabled=false;
-            else
-            document.getElementById('registrar').disabled=true;
-        }
 
-    </script>
-
+document.getElementById('registro').disabled=true; 
+function validar(cb){
+       if(cb.checked)
+       document.getElementById('registro').disabled=false;
+       else
+       document.getElementById('registro').disabled=true;
+} 
+</script>
 </body>
 </html>
 
