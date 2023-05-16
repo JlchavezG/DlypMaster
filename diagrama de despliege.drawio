@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T18:23:10.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="NyAyhExbmNrc1WcDSpJI" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T18:25:09.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="nWPs-iI8B_Uznr1XAhI9" version="21.3.2" type="github">
   <diagram name="Página-1" id="72iwt8nv1lAFxt5A45Wy">
-    <mxGraphModel dx="2674" dy="2403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1560" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,22 +58,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="taAzBONbEb0uJAN0j744-18" value="Carpeta Dlyp" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1269.5" y="800" width="170" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="taAzBONbEb0uJAN0j744-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="taAzBONbEb0uJAN0j744-20" target="taAzBONbEb0uJAN0j744-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1354.5" y="910" />
-              <mxPoint x="1249.5" y="910" />
-              <mxPoint x="1249.5" y="815" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1229.5" y="800" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="taAzBONbEb0uJAN0j744-20" value="Archivos Vfast" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1304.5" y="850" width="100" height="50" as="geometry" />
+          <mxGeometry x="1270.75" y="850" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="taAzBONbEb0uJAN0j744-21" value="SSL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1279.5" y="940" width="125" height="90" as="geometry" />
+          <mxGeometry x="1252" y="940" width="125" height="90" as="geometry" />
         </mxCell>
         <mxCell id="taAzBONbEb0uJAN0j744-22" value="Índice" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="979.5" y="800" width="180" height="410" as="geometry" />
