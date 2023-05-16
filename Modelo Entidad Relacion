@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T02:30:38.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="W175X_VRADyhoVe5wWu-" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-16T18:10:04.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="V8qSBMgYflnMcxLWucEJ" version="21.3.2" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Modelo-Entidad Relacion">
-    <mxGraphModel dx="2277" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1543" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,13 +34,13 @@
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-8" value="Id_Tusurio" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-230" y="540" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-9" value="Apellido" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-9" value="ApellidoP" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-40" y="520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-10" value="ApellidoM" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-60" y="810" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-11" value="NombreP" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="Ucd6H6nxqUQnoxPxyjyU-11" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="70" y="825" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ucd6H6nxqUQnoxPxyjyU-12" value="Id_Usuario" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
@@ -1455,10 +1455,10 @@
             <mxPoint x="1541.25" y="1583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dSzeobPY6xZtsPOrK6jZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dSzeobPY6xZtsPOrK6jZ-1" target="Ucd6H6nxqUQnoxPxyjyU-42">
+        <mxCell id="dSzeobPY6xZtsPOrK6jZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="dSzeobPY6xZtsPOrK6jZ-1" target="Ucd6H6nxqUQnoxPxyjyU-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dSzeobPY6xZtsPOrK6jZ-1" value="DescripcionL" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="dSzeobPY6xZtsPOrK6jZ-1" value="DescripcionL" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7F00FF;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-147.5" y="1130" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
